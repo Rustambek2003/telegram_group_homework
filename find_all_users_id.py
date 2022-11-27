@@ -16,4 +16,4 @@ def find_all_users_id(data: dict)->list:
             ans.append(i.get('actor_id'))
     return ans
 d = read_data('data/result.json')
-print(find_all_users_id(d))
+find_all_users_id(d)
